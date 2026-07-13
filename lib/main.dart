@@ -73,7 +73,7 @@ class StudentProfileScreen extends StatelessWidget {
                 const SizedBox(height: 24),
                 Container(
                   width: double.infinity,
-                  constraints: const BoxConstraints(minHeight: 140),
+                  constraints: const BoxConstraints(minHeight: 150),
                   padding: const EdgeInsets.all(18),
                   decoration: BoxDecoration(
                     color: Colors.teal.shade50,
@@ -90,8 +90,7 @@ class StudentProfileScreen extends StatelessWidget {
                       Text(
                         'Passionate about technology, software development, and continuous learning. I enjoy creating practical applications that deliver great user experiences and solve real-world problems.',
                         style: TextStyle(fontSize: 14, height: 1.5),
-                        maxLines: 3,
-                        overflow: TextOverflow.ellipsis,
+                        softWrap: true,
                       ),
                     ],
                   ),
