@@ -1,4 +1,4 @@
-# Student Profile App — Internship Project
+# Student Profile App - Internship Project
 
 This repository contains a small Flutter app I built as part of my App Development
 Internship at ZenvyroLabs. This project was my first hands-on task in the internship
@@ -25,5 +25,5 @@ Tests:
 flutter test
 ```
 
-Thank you to the ZenvyroLabs team for the internship opportunity — excited to keep
+Thank you to the ZenvyroLabs team for the internship opportunity - excited to keep
 learning and build more apps.
