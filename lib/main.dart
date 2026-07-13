@@ -78,9 +78,9 @@ class StudentProfileScreen extends StatelessWidget {
                     color: Colors.teal.shade50,
                     borderRadius: BorderRadius.circular(16),
                   ),
-                  child: const Column(
+                  child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
+                    children: const [
                       Text(
                         'About Me',
                         style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -133,3 +133,5 @@ class StudentProfileScreen extends StatelessWidget {
     );
   }
 }
+
+// AboutMeWidget removed — using a fixed 3-line About Me block instead.
