@@ -1,17 +1,29 @@
-# student_profile_app
+# Student Profile App — Internship Project
 
-A new Flutter project.
+This repository contains a small Flutter app I built as part of my App Development
+Internship at ZenvyroLabs. This project was my first hands-on task in the internship
+and helped me practice laying out UI with Flutter widgets and working with assets.
 
-## Getting Started
+What I learned and practiced:
+- Building layouts with `MaterialApp`, `Scaffold`, `AppBar`, `Column`, and `Row`.
+- Displaying images with `CircleAvatar` and bundling assets via `pubspec.yaml`.
+- Using `Container`, `Text`, `Icon`, `ElevatedButton`, `Padding`, and `SizedBox` for clean UI.
 
-This project is a starting point for a Flutter application.
+Project overview:
+- A clean Student Profile screen with title, circular profile picture, full name,
+  university, department, semester, email, phone, a short About Me block (2–3 lines),
+  and an "Edit Profile" button.
 
-A few resources to get you started if this is your first Flutter project:
+How to run (from project root):
+```bash
+flutter pub get
+flutter run
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Tests:
+```bash
+flutter test
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Thank you to the ZenvyroLabs team for the internship opportunity — excited to keep
+learning and build more apps.
