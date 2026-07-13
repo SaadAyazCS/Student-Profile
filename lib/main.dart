@@ -47,10 +47,20 @@ class StudentProfileScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 const Text(
+                  'Full Name',
+                  style: TextStyle(fontSize: 14, color: Colors.grey),
+                ),
+                const SizedBox(height: 4),
+                const Text(
                   'Khawaja Saad Ayaz',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
-                const SizedBox(height: 8),
+                const SizedBox(height: 12),
+                const Text(
+                  'University Name',
+                  style: TextStyle(fontSize: 14, color: Colors.grey),
+                ),
+                const SizedBox(height: 4),
                 const Text(
                   'Capital University of Science & Technology.',
                   style: TextStyle(fontSize: 16, color: Colors.grey),
@@ -79,6 +89,8 @@ class StudentProfileScreen extends StatelessWidget {
                       Text(
                         'I am a software developer with a passion for creating intuitive digital experiences. I enjoy building mobile apps, exploring emerging technologies, and solving real-world problems with clean, reliable software.',
                         style: TextStyle(fontSize: 14, height: 1.5),
+                        maxLines: 3,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ],
                   ),
