@@ -73,7 +73,8 @@ class StudentProfileScreen extends StatelessWidget {
                 const SizedBox(height: 24),
                 Container(
                   width: double.infinity,
-                  padding: const EdgeInsets.all(16),
+                  constraints: const BoxConstraints(minHeight: 140),
+                  padding: const EdgeInsets.all(18),
                   decoration: BoxDecoration(
                     color: Colors.teal.shade50,
                     borderRadius: BorderRadius.circular(16),
@@ -87,7 +88,7 @@ class StudentProfileScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 8),
                       Text(
-                        'I am a software developer with a passion for creating intuitive digital experiences. I enjoy building mobile apps, exploring emerging technologies, and solving real-world problems with clean, reliable software.',
+                        'Passionate about technology, software development, and continuous learning. I enjoy creating practical applications that deliver great user experiences and solve real-world problems.',
                         style: TextStyle(fontSize: 14, height: 1.5),
                         maxLines: 3,
                         overflow: TextOverflow.ellipsis,
