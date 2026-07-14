@@ -474,5 +474,7 @@ class _EditProfileBottomSheetState extends State<_EditProfileBottomSheet> {
         ),
       ),
     );
+  }
+}
 
  
